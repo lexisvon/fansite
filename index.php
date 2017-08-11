@@ -15,7 +15,7 @@
       <h1>Pineapples are the bomb!</h1>
       <p>Once you've learned more about this fruit I garentee you'll want to try it.</p>
       <img class="flex intro-img" src="img/pineapple-2.jpg" width="300"></img>
-      <a href="external-links.html">more about pineapples</a>
+      <a href="external-links.php">more about pineapples</a>
     </div>
   </body>
 </html>
