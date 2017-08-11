@@ -9,12 +9,7 @@
   </head>
   <body class="wrapper p-bkgrnd">
     <nav class="txt-align-cntr">
-      <ul>
-        <li><a href="index.html">Home</a></li>
-        <li><a href="history.html">History</a></li>
-        <li><a href="imgs.html">Pineapples</a></li>
-        <li><a href="external-links.html">Media</a></li>
-      </ul>
+      <?php $current = "index"; include ("navigation.php"); ?>
     </nav>
     <div class="txt-align-cntr">
       <h1>Pineapples are the bomb!</h1>

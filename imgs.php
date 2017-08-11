@@ -1,4 +1,4 @@
-\<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en-us">
   <head>
     <meta charset="utf-8">
@@ -9,12 +9,7 @@
   </head>
   <body class="wrapper">
     <nav>
-      <ul>
-        <li><a href="index.html">Home</a></li>
-        <li><a href="history.html">History</a></li>
-        <li><a href="imgs.html">Pineapples</a></li>
-        <li><a href="external-links.html">Media</a></li>
-      </ul>
+      <?php $current = "imgs"; include ("navigation.php"); ?>
     </nav>
     <h1 class="txt-align-cntr">Delicious Pics ;)</h1>
     <div class="grid-container">

@@ -24,7 +24,7 @@
 1.0 - TYPOGRAPHY
 -------------------------------------------------------------- */
 body {
-    font-family: 'PT Sans', sans-serif;
+  font-family: 'PT Sans', sans-serif;
 }
 /*-- 1.1 - Headings --*/
 h1 {
@@ -55,24 +55,25 @@ nav {
   margin-top: 80px;
 }
 ul {
-    display: flex;
-    justify-content: center;
-    list-style-type: none;
+  display: flex;
+  justify-content: center;
+  list-style-type: none;
 }
 nav a {
-    padding-right: 30px;
-    color: #D83D69;
+  padding-right: 30px;
+  color: #D83D69;
 }
 a {
   color: black;
   text-decoration: none;
 }
-a:hover {
+.current a {
+  color: #F4BF35; 
+}
+.current a:hover, a:hover {
   color: #F4BF35;
   cursor: pointer;
 }
-
-
 /*--------------------------------------------------------------
 3.0 - CONTENT
 -------------------------------------------------------------- */

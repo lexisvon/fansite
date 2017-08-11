@@ -9,12 +9,7 @@
   </head>
   <body class="wrapper">
     <nav>
-      <ul>
-        <li><a href="index.html">Home</a></li>
-        <li><a href="history.html">History</a></li>
-        <li><a href="imgs.html">Pineapples</a></li>
-        <li><a href="external-links.html">Media</a></li>
-      </ul>
+      <?php $current = "external-links"; include ("navigation.php"); ?>
     </nav>
     <h1 class="txt-align-cntr">More Pineapples!</h1>
     <div class="grid-container flex justify txt-align-cntr">
